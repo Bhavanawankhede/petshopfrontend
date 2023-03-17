@@ -90,8 +90,7 @@ export default function ItemCategories() {
               <StyledTableRow key={itemCategory.itemCategoryName}>
                 <StyledTableCell>
                   <img
-                    src={require("https://cdn.britannica.com/60/8160-050-08CCEABC/German-shepherd.jpg" +
-                      itemCategory.itemCategoryImage)}
+                    src="https://cdn.britannica.com/60/8160-050-08CCEABC/German-shepherd.jpg"
                   />
                 </StyledTableCell>
                 <StyledTableCell component="th" scope="row">
