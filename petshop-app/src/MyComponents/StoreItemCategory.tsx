@@ -67,8 +67,7 @@ export function StoreItemCategory({
       <Card>
         <CardMedia
           component="img"
-          image={require('https://cdn.britannica.com/60/8160-050-08CCEABC/German-shepherd.jpg' +
-          itemCategoryImage)}
+          image=https://cdn.britannica.com/60/8160-050-08CCEABC/German-shepherd.jpg'
           style={Style}
         />
         <CardContent>
