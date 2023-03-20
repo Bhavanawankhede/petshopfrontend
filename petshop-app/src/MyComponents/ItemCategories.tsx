@@ -90,7 +90,8 @@ export default function ItemCategories() {
               <StyledTableRow key={itemCategory.itemCategoryName}>
                 <StyledTableCell>
                   <img
-                    src='https://cdn.pixabay.com/photo/2016/02/19/15/46/labrador-retriever-1210559__480.jpg'
+                    src={require("E:/PetShopWebsiteLatest/myfetminiprojectstuffonacer/Images/" +
+                      itemCategory.itemCategoryImage)}
                   />
                 </StyledTableCell>
                 <StyledTableCell component="th" scope="row">
