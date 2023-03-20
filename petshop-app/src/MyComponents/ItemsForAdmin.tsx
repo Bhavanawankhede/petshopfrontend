@@ -86,8 +86,7 @@ export default function ItemsForAdmin() {
               <StyledTableRow key={item.itemName}>
                 <StyledTableCell>
                   <img
-                    src={require("E:/PetShopWebsiteLatest/myfetminiprojectstuffonacer/Images/" +
-                      item.itemImage)}
+                    src='https://cdn.pixabay.com/photo/2016/02/19/15/46/labrador-retriever-1210559__480.jpg'
                   />
                 </StyledTableCell>
                 <StyledTableCell component="th" scope="row">
