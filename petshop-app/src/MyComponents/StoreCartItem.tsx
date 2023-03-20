@@ -100,7 +100,8 @@ export function StoreCartItem({
       <Card>
         <CardMedia
           component="img"
-          image="https://cdn.britannica.com/60/8160-050-08CCEABC/German-shepherd.jpg" 
+          image={require("E:/PetShopWebsiteLatest/myfetminiprojectstuffonacer/Images/" +
+            itemImage)}
           style={Style}
         />
         <CardContent>
